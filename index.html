@@ -2,10 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My GitHub2 Index Page</title>
+  <title>Split</title>
+  <style>
+    .split-container {
+      display: flex;
+      height: 100vh;
+    }
+    .left, .right {
+      flex: 1;
+      padding: 5px;
+      margin-top: 150px;
+      
+    }
+    .left { text-align:"left";
+      
+    }
+    .right { text-align-last: right;
+    
+    
+     
+    }
+    .divider {
+      width: 5px;
+      background: #333;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to GitHub2!</h1>
-  <p>This is the index.html file.</p>
+  <div class="split-container">
+    <div class="left ">
+      
+      <p>LEFT SIDE.</p>
+    </div>
+    <div class="divider"></div>
+    <div class="right ">
+     
+      <p>RIGHT SIDE.</p>
+    </div>
+  </div>
 </body>
 </html>
